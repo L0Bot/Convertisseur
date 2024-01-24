@@ -1,0 +1,17 @@
+@use './../../styles/vars';
+
+.amount {
+  background-color: vars.$light;
+  padding: 2.5rem 0.5rem;
+  text-align: center;
+
+  &__value {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  &__currency {
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+  }
+}
